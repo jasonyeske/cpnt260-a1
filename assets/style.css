@@ -36,6 +36,18 @@ h1 {
 
     text-align:center;
 }
+
+img body {
+
+width:100%;
+height:auto;
+
+
+}
+
+
+
+/* footer */
 footer {
     position: fixed;
     bottom: 2px;
