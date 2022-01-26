@@ -40,4 +40,5 @@ footer {
     position: fixed;
     bottom: 2px;
     text-align:center;
+    width: 100%;
 }
