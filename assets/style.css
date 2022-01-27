@@ -1,5 +1,9 @@
-/* Nav Bar */
+/** Nav Bar **/
+.title{
 
+align-items: center;
+
+}
 nav {
     display: flex;
    background-color: RGB(210, 228, 250);
@@ -17,11 +21,13 @@ nav {
    }
  
  
-   /* Nav bar changes color when hovered over */
- li > a:hover {
+   /** Nav bar changes color when hovered over **/
+ 
+   li > a:hover {
    color: green;
    text-decoration: underline;
  }
+ 
  li > a{
    text-decoration: none;
    color: black;
@@ -41,33 +47,44 @@ h1 {
 
 
 h2 {
-
-text-align:center;
-
+    text-align:center;
 }
+
 h3 {
 
     text-align:center;
+  }
     
-    }
-    
+p {
+    text-align:center;
+    font-size: 21px;
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color:beige;
+}
 
 img {
-
 width:100%;
 height:auto;
-
-
 }
 
 .list {
-    line-height: 2px;
-    list-style-type: disc;
+    align-items: center;
+    list-style-type: none;
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 
 /* footer */
 footer {
-    
     bottom: 2px;
     text-align:center;
     width: 100%;
